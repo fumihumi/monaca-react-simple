@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Page, Button, Toolbar} from 'react-onsenui';
-import {notification} from 'onsenui';
 
 export default class App extends React.Component {
   alertPopup() {
-    notification.alert('This is an Onsen UI alert notification test.');
   }
 
   renderToolbar() {
