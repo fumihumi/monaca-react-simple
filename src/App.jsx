@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Page, Button, Toolbar} from 'framework7-react';
 
 export default class App extends React.Component {
   alertPopup() {
+    alert('alert')
   }
 
   renderToolbar() {
